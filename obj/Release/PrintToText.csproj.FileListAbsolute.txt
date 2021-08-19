@@ -1,0 +1,16 @@
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\x86\leptonica-1.78.0.dll
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\x86\tesseract41.dll
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\x64\leptonica-1.78.0.dll
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\x64\tesseract41.dll
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\PrintToText.exe.config
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\PrintToText.exe
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\PrintToText.pdb
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\bin\Release\Tesseract.dll
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.frm.resources
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.Properties.Resources.resources
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.csproj.CopyComplete
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.exe
+C:\Users\andre\Documents\Visual Studio 2019\Projetos\PrintToText\obj\Release\PrintToText.pdb
