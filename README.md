@@ -6,11 +6,3 @@ OCR cut from a screenshot
 
 ### Texto copiado
 ![img](/screen/screen%20(1).png)
-
-##
-<br/>
-
-#### Durante a tela de corte, é possível aperta as teclas **e, p ou ESC**.<br/><br/>
-Tecla **e** para captar palavras em inglês com mais propriedade(é o padrão);<br/>
-Tecla **p** para captar palavras em portugês (BR);<br/>
-Tecla **ESC** para cancelar a copia do texto.
