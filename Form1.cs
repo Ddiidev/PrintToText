@@ -32,30 +32,40 @@ namespace PrintToText
 
 		public frm()
 		{
-			printScreen();
+			Task.Run(async () => await printScreen());
 			InitializeComponent();
 		}
 
 		public async Task ExecuteRead()
 		{
-			var BmpLocal = CropBitmap();
-			var text = ImageToText(BmpLocal);
+			await Task.Run(() =>
+			{
+				var BmpLocal = CropBitmap();
+				var text = ImageToText(BmpLocal);
 
-			if (text.Length > 0)
-				try
+				if (text.Length > 6)
 				{
-					Clipboard.SetText(text);
+					var SixChars = text.Substring(text.Length - 6);
+					var LineBreak = SixChars.Split(new[] { "\r", "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+
+					if (LineBreak > 3)
+						text.Substring(0, text.Length - 2);
 				}
-				catch
-				{
+
+				if (text.Length > 0)
 					try
 					{
-						Clipboard.SetText(text);
+						Invoke(new Action(() => Clipboard.SetText(text)));
+					} catch
+					{
+						try
+						{
+							Invoke(new Action(() => Clipboard.SetText(text)));
+						} catch { }
 					}
-					catch { }
-				}
 
-			Close();
+				Invoke(new Action(() => Close()));
+			});
 		}
 		public Bitmap CropBitmap()
 		{
@@ -95,12 +105,12 @@ namespace PrintToText
 
 			return text;
 		}
-		private void pic_MouseUp(object sender, MouseEventArgs e)
+		private async void pic_MouseUp(object sender, MouseEventArgs e)
 		{
 			Hide();
 			RecScreen.EndX = e.X - 1;
 			RecScreen.EndY = e.Y - 1;
-			ExecuteRead();
+			await ExecuteRead();
 			MousePrecioned = false;
 		}
 		private void Pic_MouseMove(object sender, MouseEventArgs e)
@@ -160,8 +170,7 @@ namespace PrintToText
 				Lang = new Language(Language.Langs.english);
 				customPanel1.Visible = true;
 				t.Start();
-			}
-			else if (e.KeyChar == 'p')
+			} else if (e.KeyChar == 'p')
 			{
 				Lang = new Language(Language.Langs.portugues);
 				customPanel1.Visible = true;

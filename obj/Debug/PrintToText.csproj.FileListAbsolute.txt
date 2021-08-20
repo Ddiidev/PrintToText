@@ -1,0 +1,15 @@
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\x86\leptonica-1.78.0.dll
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\x86\tesseract41.dll
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\x64\leptonica-1.78.0.dll
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\x64\tesseract41.dll
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\PrintToText.exe.config
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\PrintToText.exe
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\PrintToText.pdb
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\bin\Debug\Tesseract.dll
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.csproj.AssemblyReference.cache
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.frm.resources
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.Properties.Resources.resources
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.csproj.GenerateResource.cache
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.csproj.CoreCompileInputs.cache
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.exe
+C:\Users\AndreLuiz\Documents\Visual Studio 2022\Projetos\PrintToText\obj\Debug\PrintToText.pdb
