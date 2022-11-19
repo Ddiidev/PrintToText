@@ -1,3 +1,6 @@
+### Projeto arquivo, visto que o [PowerToys](https://github.com/microsoft/PowerToys) já possuí uma ferramente semelhante e com mais precisão.
+
+
 # PrintToText
 OCR cut from a screenshot
 
